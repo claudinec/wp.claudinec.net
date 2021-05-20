@@ -1,6 +1,16 @@
 {
   "name": "johnpbloch/wordpress-core",
   "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+  "repositories": [
+	  {
+		  "type":"composer",
+		  "url":"https://wpackagist.org",
+		  "only": [
+			  "wpackagist-plugin/*",
+			  "wpackagist-theme/*"
+		  ]
+	  }
+  ],
   "keywords": [
     "wordpress",
     "blog",
@@ -25,7 +35,9 @@
   "require": {
     "php": ">=5.6.20",
     "ext-json": "*",
-    "wp-cli/wp-cli-bundle": "^2.5"
+    "wp-cli/wp-cli-bundle": "^2.5",
+    "wpackagist-plugin/coming-soon": "^6.2",
+    "wpackagist-plugin/timber-library": "^1.18"
   },
   "provide": {
     "wordpress/core-implementation": "5.7.2"

@@ -24,7 +24,8 @@
   },
   "require": {
     "php": ">=5.6.20",
-    "ext-json": "*"
+    "ext-json": "*",
+    "wp-cli/wp-cli-bundle": "^2.5"
   },
   "provide": {
     "wordpress/core-implementation": "5.7.2"

@@ -35,7 +35,8 @@
   "require": {
     "php": ">=5.6.20",
     "ext-json": "*",
-    "wp-cli/wp-cli-bundle": "^2.5"
+    "wp-cli/wp-cli-bundle": "^2.5",
+    "wpackagist-plugin/coming-soon": "^6.2"
   },
   "provide": {
     "wordpress/core-implementation": "5.7.2"

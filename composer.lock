@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd04f8147ddf8e1a00ea2b615b97ffb0",
+    "content-hash": "e196403e7c6d5ef13b18ca18e752e3c9",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4338,6 +4338,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/coming-soon/"
+        },
+        {
+            "name": "wpackagist-plugin/timber-library",
+            "version": "1.18.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timber-library/",
+                "reference": "tags/1.18.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.18.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timber-library/"
         }
     ],
     "packages-dev": [],

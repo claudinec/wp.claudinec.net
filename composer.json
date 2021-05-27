@@ -38,7 +38,8 @@
     "wp-cli/wp-cli-bundle": "^2.5",
     "wpackagist-plugin/coming-soon": "^6.2",
     "wpackagist-plugin/timber-library": "^1.18",
-    "wpackagist-plugin/wp-mail-smtp": "^2.8"
+    "wpackagist-plugin/wp-mail-smtp": "^2.8",
+    "wpackagist-plugin/font-awesome": "^3.2"
   },
   "provide": {
     "wordpress/core-implementation": "5.7.2"

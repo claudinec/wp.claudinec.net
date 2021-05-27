@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e196403e7c6d5ef13b18ca18e752e3c9",
+    "content-hash": "fcdf4a739a61bed5317ce0ceac83558a",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4338,6 +4338,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/coming-soon/"
+        },
+        {
+            "name": "wpackagist-plugin/font-awesome",
+            "version": "3.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/font-awesome/",
+                "reference": "tags/3.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome.3.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome/"
         },
         {
             "name": "wpackagist-plugin/timber-library",
